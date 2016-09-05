@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 62.5%;
+}
+body{    width: 100%;
+    max-width: 1920px;}
+/*top留白*/
+.box {width: 1200px;
+margin: 0 auto;
+}
+
+.tb {
+    width: 100%;
+    background-color: #1d7ad9;
+}
+
+.top {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.t1 {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding: 12px 0 14px 0;
+}
+
+.top ul {
+    list-style: none;
+    float: right;
+    border-left: 1px #ffffff solid;
+}
+
+.top ul li {
+    display: inline-block;
+    font-size: 1.602rem;
+    text-align: center;
+}
+
+.top ul li a {
+    text-decoration: none;
+    width: 104px;
+    display: inline-block;
+    color: #ffffff;
+    margin: 12px -20px 7px 0;
+}
+
+.top ul li a:hover {
+    color: #333333;
+    background-color: #ffffff;
+    padding: 11px 0 8px 0;
+    margin: 0;
+}
+
+/*导航*/
+.behind {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.bh {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.bh ul {
+    list-style: none;
+    float: right;
+    margin: 14px 0;
+}
+
+.bh ul li {
+    display: inline-block;
+    font-size: 1.602rem;
+    text-align: center;
+    border: 1px #e6e6e6 solid;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+.bh ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #333333;
+    padding: 14px 17px 16px 17px;
+}
+
+.bh ul li a:hover {
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+
+/*小导航*/
+.step {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row ul {
+    float: right;
+}
+
+.row li {
+    list-style-type: none;
+    float: left;
+    color: #cccccc;
+    position: relative;
+    border-top: solid 5px #cccccc;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row li div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 50px;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+}
+
+.row li:hover {
+    color: #ff7f02;
+    border-top: solid 5px #ff7f02;
+}
+
+.row li:hover div {
+    background-color: #ff7f02;
+}
+
+/*main*/
+.main {border:#e8e8e8 1px solid;overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main p {
+    display: inline-block;
+    font-size: 2.2rem;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+.text1 {
+    font-size: 1.8rem;
+    color: #1d7ad9;
+    background-color: #f2f2f2;
+    height: 45px;
+    width: 1200px;
+    line-height: 45px;
+    padding-left: 15px;
+}
+
+.form {display: inline-block;
+    width: 1200px;
+}
+
+.choose {
+    display: inline-block;
+    height: 85px;
+    line-height: 85px;
+    background-color: #fbfcff
+}
+
+.choose div {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+select {
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    float: right;
+    border: solid 1px ;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("images/xia_03.png") no-repeat scroll right center transparent;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.d {
+    display: inline-block;
+    margin: 20px auto 20px 25px;
+}
+
+.d span {
+    padding-right: 60px;
+}
+
+.long {
+    width: 70px;
+    height: 30px;
+}
+
+.x2 {
+    float: right
+}
+
+.clear {
+    clear: both;
+}
+.bottom{
+    border:#e8e8e8 1px solid;
+    text-align: center;
+    margin-top:56px;
+    padding-top: 142px;
+    padding-bottom: 100px;
+}
+button{
+    outline: none;
+    border: 0;
+    width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e15053;
+    color: #fff;
+    cursor:pointer;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    color:#999999;
+}
+.foot{
+    padding-top: 110px;
+}
+.foot1{
+    float: left;
+    margin-right: 170px;
+}
+.foot2{
+    float: left;
+    margin-right: 210px;
+
+}
+.foot2 a{
+    text-decoration: none;
+    color:#999;
+}
+.foot2 span,.foot2 p{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.foot3 {
+    float: right;
+}
+.tel{
+    float: left;
+}
+.tel p {
+    padding-bottom: 15px;
+}
+#copyright {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1d7ad9;
+    font-size: 14px;
+    color: #fff;
+}
